@@ -1,0 +1,34 @@
+---
+abstract: 'patch MooseX::Declare for extensibility'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  Test::More: 0.61
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 0
+generated_by: 'Module::Install version 1.06'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: MooseX::Declare::Context::WithOptions::Patch::Extensible
+name: MooseX-Declare-Context-WithOptions-Patch-Extensible
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  MooseX::Declare: 0.30
+  MooseX::Declare::Context::WithOptions: 0.22
+  perl: 5.10.0
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Declare-Context-WithOptions-Patch-Extensible
+  homepage: https://metacpan.org/release/MooseX-Declare-Context-WithOptions-Patch-Extensible
+  license: http://dev.perl.org/licenses/
+  repository: http://bitbucket.org/tobyink/p5-moosex-declare-context-withoptions-patch-extensible
+version: 0.001
